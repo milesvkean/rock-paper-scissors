@@ -1,0 +1,27 @@
+.can {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container {
+  background: dodgerblue;
+  border: 4px solid midnightblue;
+  width: 400px;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box {
+  background: palevioletred;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border: 4px solid maroon;
+  width: 400px;
+  height: 300px;
+}
