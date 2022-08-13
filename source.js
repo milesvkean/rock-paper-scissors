@@ -2,6 +2,7 @@ let playerScore = 0
 let computerScore = 0
 const buttons = document.querySelectorAll('input')
 
+
 function computerPlay() {
     let choices = ['rock', 'paper', 'scissors']
     return choices[Math.floor(Math.random() * choices.length)]
@@ -12,6 +13,8 @@ function disableButtons() {
         elem.disabled = true
     })
 }
+
+document.getElementById('result').innerHTML = 'Click one of the buttons above to make your selection, the results will appear here'
 
 function playRound(playerSelection) {
     let computerSelection = computerPlay()
